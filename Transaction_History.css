@@ -1,0 +1,52 @@
+img {
+    width: 30px;
+    height: 20px;
+}
+
+.circle {
+    position: relative;
+    background-color: rgb(193, 238, 29);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.header {
+    border-bottom: 2px solid black;
+    display: flex;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.header>* {
+    margin-right: 10px;
+}
+.tranBox{
+    margin: 10px;
+    width: auto;
+    display: flow-root;
+}
+.tranBox >*{
+    width: 50%;
+}
+.tranBox>*>*{
+    padding: 20px;
+
+}
+.buttons {
+    margin: 10px 20px;
+}
+.buttons>*{
+    margin-right: 10px;
+    border-radius: 5px;
+}
